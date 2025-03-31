@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./EFC-Modules/test_"
+    ]
+}
