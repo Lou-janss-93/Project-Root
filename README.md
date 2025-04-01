@@ -13,8 +13,7 @@ This project is a comprehensive implementation of sentiment analysis and emotion
 ## Project Structure
 This document outlines the map structure and describes the workings of the module and associated parts. Although a cleanup is required, it is operational.
 
-```
-## Project-Root/
+Project-Root/
 ├── .conda/                               # Conda environment files
 ├── .vscode/                              # VS Code configuration
 │   └── settings.json                     # Python analysis paths
@@ -33,7 +32,8 @@ This document outlines the map structure and describes the workings of the modul
 │   │   │   ├── Testing-Files/             # Test scripts for modules
 │   │   │   |   └──Core/EFC2.py            # This script showcases modular design, where each class encapsulates specific aspects of the system, making it easier to understand, maintain, and extend.
 │   │   │   ├── Y&Y/                       # Yin-Yang module implementations
-│   │   │   |   └──Core/sentiment_analysis_ying-yangmodule-added.py # This implementation is useful for systems that need to model dynamic states influenced by external factors. The clamping mechanism ensures the balance remains within a safe range, while the decay constant provides a controlled return to equilibrium over time. This design is modular and can be extended to include additional contexts or behaviors. Also bluid for the use in AI systemen that uses sentimentanalysis.
+│   │   │   |   └──Core/sentiment_analysis_ying-yangmodule-added.py
+                                           # This implementation is useful for systems that need to model dynamic states influenced by external factors. The clamping mechanism ensures the balance remains within a safe range, while the decay constant provides a controlled return to equilibrium over time. This design is modular and can be extended to include additional contexts or behaviors. Also bluid for the use in AI systemen that uses sentimentanalysis.
 
                                     
 │   │   ├── Analyse_en_TheorieënNL.docx  # Dutch analysis and theories
