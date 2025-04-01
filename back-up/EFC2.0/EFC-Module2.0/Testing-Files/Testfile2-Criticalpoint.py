@@ -7,7 +7,7 @@ def test_critical_point():
     gamma = 0.5
     delta = 0.5
 
-    # Critical scenario
+    # Critical scenario witch pushes the module to make 100% use of its modules.
     critical_scenario = {
         "YYY": 100, "PPP": 100, "SSS": 100, "context": "Bad",
         "primary_needs": [1.0, 1.0, 1.0], "secondary_needs": [1.0, 1.0, 1.0],
