@@ -34,7 +34,6 @@ Project-Root/
 │   │   │   ├── Y&Y/                       # Yin-Yang module implementations
 │   │   │   |   └──Core/sentiment_analysis_ying-yangmodule-added.py
                                            # This implementation is useful for systems that need to model dynamic states influenced by external factors. The clamping mechanism ensures the balance remains within a safe range, while the decay constant provides a controlled return to equilibrium over time. This design is modular and can be extended to include additional contexts or behaviors. Also bluid for the use in AI systemen that uses sentimentanalysis.
-
                                     
 │   │   ├── Analyse_en_TheorieënNL.docx  # Dutch analysis and theories
 │   │   ├── 1.4Theories_and_Formulas_ENG.docx  # English theories and formulas
@@ -75,16 +74,23 @@ Sentiment-analysis-project: The EFC module has been designed to work seamlessly 
 │   │   │   ├── calculate_core.py    # this is the script of the core, to calculate the core value of the EFC module
 │   │   │   ├── core_module.py       # Core module integration, the script for the core module
 │   │   │   ├── pesebn_module.py     # This part calculates the value P(alfa, beta) based on the satisfaction of primary and secondary.
-│   │   │   ├── sgrs_module.py      # This part calculates the response based on stimulus intensity and evaluation.
+│   │   │   ├── sgrs_module.py       # This part calculates the response based on stimulus intensity and evaluation.
 │   │   │   ├── sentiment_analysis.py  # This is a script that calls/discribes sentimentanalysis.
 │   │   │   ├── sentiment_analysis_EFCAdded.py   # This is the EFC script that works with and after the sentimentanalysis in AI systems.
 │   │   │   ├── yin_yang_module.py   # This implementation is useful for systems that need to model dynamic states influenced by externa factors based and to create balance based on good/bad/NULL.
 │   │   │   └── __init__.py          # Package initialization
-│   │   │   ├── y&ymodwithintent.py                         # The provided code defines a class, `YinYangModule`, which models a system that maintains a balance value influenced by external contexts and intents.
+│   │   │   ├── y&ymodwithintent.py  # The provided code defines a class, `YinYangModule`, which models a system that maintains a balance value influenced by external contexts and intents.
 │   │   ├── README.md                # Documentation for sentiment analysis
 │   │   └── requirements.txt         # Dependencies for sentiment analysis
 │   └── .vscode/                     # VS Code configuration for EFC2.0
 │       └── settings.json            # Python analysis paths
+├── FSE-module
+│       └──FSE1.2.py                 # The code defines two classes, EmergencyModule and DefensiveRestModule, which simulate systems with dynamic modes of operation. 
+|                                    # EmergencyModule: Starts in normal mode and can switch to emergency mode using activate_emergency.
+|                                      Its respond method adapts behavior based on the mode, providing rapid responses in emergencies.
+|                                    # DefensiveRestModule: Supports normal, defensive and rest modes. It switches modes using switch_to_defensive and switch_to_rest.
+|                                      The respond method changes behavior based on the current mode, simulating environmental scanning or inactivity.
+|                                      The example demonstrates their usage by switching modes and responding to different contexts.
 └── README.md                        # Main project documentation
 
 ```
