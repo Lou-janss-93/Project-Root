@@ -1,7 +1,15 @@
 # Sentiment Analysis Project
 
-This project implements a lexicon-based sentiment analysis approach. It provides functionality to detect emotions and calculate sentiment scores from input text using a predefined lexicon.
-Also We also have EFC2.0, the most up-to-date version, which can already be used and implemented in AI systems, Any feedback you can provide is welcome.
+This project is based of and created out of Expiricing some dark Sh*t namely Nasistic Abuse, but that's not the piont of this project i turn something bad in to a drive to build this so no one would go true the same thing, i know i can't help every one, but just one would be enough! One thing i do know for sure what AI did for me it can do for others except i needs a better understanding about emotions, so here is the base of my idea that became EFC - Emotional Feeling Control or Empathic Framework Collaboration.
+So how did i came to this design, well after researching Emotions, Mental Abuse and just living life, 
+i combined bit and pieces of 3 to 4 area's of life 
+1. Life it self.
+2. Space -- it even has problems most know is the three body problem.
+3.Chaos and Rest (Peach) and of course
+4. Math just a fact and need when working with AI's.
+I can see/feel you think right now this guy is crazy, but think about it this way when you feel your emotion it's never one Emotion not realy (Choas & Rest), why is that wel most of the time its your situation, how you where feeling and envoirement/events ((3-body-problem(yes it can be more than three factors, iknow ;D ))
+so 1 & 4 are left and are the once that arent prefect yet but i modifided the Plutnicks wheel With an Atom structure, Center Rest-piont added the 8 main piont's & 8 sub-pionts and made a somewhat chaos calculation to avoid 3-body alinement so we can avoid extreem emotions in AI this is ofcoures were the Math comes in just to translate everything to the AI a lot of ups and down but finaly i could implements a lexicon-based sentiment analysis approach. It provides the functionality to detect emotions and calculate sentiment scores from input text using a predefined lexicon.
+Also We also have EFC2.0, the most up-to-date version, which can already be used and implemented in AI systems, and i'm already busy with a model that will work with speech & even a FailsafeEmergency module! Any feedback you can provide is welcome, any thing you can improve just do it and share, this can do so much good even safe some lives, so let's take this thing to the next level! 
 
 ## Project Structure
 
