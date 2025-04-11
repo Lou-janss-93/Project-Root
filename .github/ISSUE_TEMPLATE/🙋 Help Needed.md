@@ -1,37 +1,30 @@
-title: "[Help] 
-description: Ben vooral opzoek naar creative, innovative denkers en experten die een verschil willen maken, en helpen bouwen aan iets wat voor velen een hulp middel kan worden inplaats zomaar een tool.
-labels: ["help wanted", "good first issue"]
-assignees: ""
+-Help wanted!
 
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Dankjewel dat je een bijdrage overweegt! Laat ons weten waar je hulp bij nodig hebt, of waarmee je wilt bijdragen.
+- I am especially looking for creative, innovative thinkers and experts who want to make a difference, and help build something that can 
+  become a tool for many instead of just a tool.
 
-  - type: textarea
-    id: description
-    attributes:
-      label: Beschrijving
-      description: Leg kort uit wat het probleem of de hulpvraag is.
-      placeholder: Bijvoorbeeld: "Ik zoek iemand die de documentatie kan verbeteren voor de HEX-module."
-      required: true
+- help wanted", "good first issue assignees: ""
 
-  - type: checkboxes
-    id: areas
-    attributes:
-      label: Relevante onderdelen
-      description: Op welke gebieden wil je bijdragen?
-      options:
-        - label: 📘 Documentatie
-        - label: 🧠 AI-logica / prompt engineering
-        - label: 💡 UX/UI of visueel design
-        - label: 🔧 Debugging / testing
-        - label: 🌐 Website / integratie
-        - label: Anders (beschrijf in het tekstvak hieronder)
+- Thank you for considering a contribution! Let us know what you need help with, or would like to contribute with.
 
-  - type: textarea
-    id: other
-    attributes:
-      label: Extra toelichting of voorstel
-      description: Heb je een concreet idee of een andere skill die kan helpen? Zet het hier.
+- id: [your Github ID]
+
+- Description, Briefly explain what the problem or request for help is. For example, "I'm looking for someone who can improve the 
+  documentation for the HEX module."
+
+-id:[project name]
+  - areas 
+  - Relevant parts 
+  - In which areas do you want to contribute? 
+
+-options:
+
+ - ▢: 📘 Documentation
+ - ▢: 🧠 AI logic/prompt engineering
+ - ▢: 💡 UX/UI or visual design
+ - ▢: 🔧 Debugging / testing
+ - ▢: 🌐 Website / Integration
+ - ▢: Other (describe in the text box below)
+
+-Additional explanation or proposal
+- Do you have a concrete idea or another skill that can help? Put it here.
